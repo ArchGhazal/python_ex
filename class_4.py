@@ -15,14 +15,7 @@ class Dog(Animal):
     def bark(self):
         print("Woof woof!")
 
-# Create an instance of the Dog class
 dog = Dog("Lollipop", 4)
-
-# Print the name of the dog
 print("Name of dog:", dog._name)
-
-# Make the dog bark
 dog.bark()
-
-# Count the legs of the dog
 print(dog.get_leg_info())
